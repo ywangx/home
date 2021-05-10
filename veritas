@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Ying Wang</title>
+  <style type="text/css">
+  P.blocktext {
+      margin-left: auto;
+      margin-right: auto;
+      width: 40em
+  }
+  * {
+  font-family: sans-serif;
+  font-weight: 300
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  .center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  </style>
+</head>
+
+<body>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <div style="width:500px" class="center">
+  <div style="width:250px; float:left;">
+  这是2021年维理中国“思考数学与科学”工作坊“拓扑导引”的课程页面。你可以在此处找到工作坊的相关的文件和信息。在工作坊进行过程中，一些文件可能会经过调整，我将会通过邮件或其它方式告知。
+  
+  工作坊进行过程中，若你有任何问题或建议并想匿名提交，请通过该表格。我将及时收到提醒。
+</body>
