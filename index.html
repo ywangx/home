@@ -10,31 +10,40 @@
       max-width: 750px;
       margin: 3em auto;
       padding: 0 1.5em;
-      font-size: 15.5px;
-      line-height: 1.7;
+      font-size: 14.5px;  /* smaller font */
+      line-height: 1.7;   /* good vertical rhythm */
       color: #333;
       background: #fff;
     }
-    img.profile {
+    .photo-wrapper {
       float: right;
-      width: 220px;
-      height: auto;
+      width: 200px;
       margin: 0 0 1.5em 1.5em;
+      text-align: center;
+    }
+    img.profile {
+      width: 100%;
+      height: auto;
       border-radius: 8px;
       border: 1px solid #ddd;
       padding: 5px;
       background: #fafafa;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    p {
-      margin-bottom: 1.2em;
+    .photo-caption {
+      font-size: 0.75em;
+      color: #777;
+      margin-top: 0.5em;
+    }
+    p, li {
+      margin-bottom: 1.2em; /* uniform spacing for both paragraphs and list items */
     }
     .section-title {
       font-weight: bold;
-      font-size: 1.4em;
+      font-size: 1.3em;
       color: #1a237e;
       margin-top: 2.5em;
-      margin-bottom: 0.8em;
+      margin-bottom: 1em;
     }
     a {
       color: #004080;
@@ -43,15 +52,19 @@
     a:hover {
       text-decoration: underline;
     }
-    .clear {
-      clear: both;
+    ul {
+      list-style-type: none;
+      padding-left: 0;
     }
   </style>
 </head>
 
 <body>
 
-  <img src="Oberwolfach.jpeg" alt="Oberwolfach Photo" class="profile">
+  <div class="photo-wrapper">
+    <img src="Oberwolfach.jpeg" alt="Oberwolfach Photo" class="profile">
+    <div class="photo-caption">Photo by Karin Schmid</div>
+  </div>
 
   <p>Welcome! My name is Ying Wang (王滢). As of Fall 2024 I am a fourth-year math PhD student at the University of Michigan. I like non-archimedean geometry, algebraic geometry, and complex geometry. 
   My advisor is <a href="https://dept.math.lsa.umich.edu/~mattiasj/index.html">Mattias Jonsson</a>.</p>
@@ -59,12 +72,14 @@
   <p>You can reach me at ywangx [at] umich [dot] edu.</p>
 
   <p class="section-title">Teaching</p>
-  <p>Data, Functions and Graphs (Math 105): Fall 2022</p>
-  <p>Self-Study Precalc (Math 110): Fall 2024</p>
-  <p>Calculus I (Math 115): Fall 2021, Winter 2023</p>
-  <p>Calculus II (Math 116): Winter 2022</p>
-  <p>Calculus III (Math 215): Fall 2023</p>
-  <p>I have also taught at <a href="https://www.veritaschina.org/">Veritas China</a> in Summer 2021. In Summer 2022 and 2023, I worked as a math instructor at <a href="https://wolverinepathways.umich.edu/">Wolverine Pathways</a>.</p>
+  <ul>
+    <li>Data, Functions and Graphs (Math 105): Fall 2022</li>
+    <li>Self-Study Precalc (Math 110): Fall 2024</li>
+    <li>Calculus I (Math 115): Fall 2021, Winter 2023</li>
+    <li>Calculus II (Math 116): Winter 2022</li>
+    <li>Calculus III (Math 215): Fall 2023</li>
+    <li>I have also taught at <a href="https://www.veritaschina.org/">Veritas China</a> in Summer 2021. In Summer 2022 and 2023, I worked as a math instructor at <a href="https://wolverinepathways.umich.edu/">Wolverine Pathways</a>.</li>
+  </ul>
 
   <p class="section-title">Research</p>
   <p>"Variants of normality and steadfastness deform," with A. Bauman, <a href="https://haviellers.netlify.app/">H. Ellers</a>, G. Hu, <a href="https://web.math.princeton.edu/~takumim/">T. Murayama</a>, and S. Nair. <a href="https://arxiv.org/abs/2202.00163">arXiv:2202.00163</a>. Accepted.</p>
