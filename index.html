@@ -3,54 +3,69 @@
 <head>
   <title>Ying Wang</title>
   <style type="text/css">
-  P.blocktext {
-      margin-left: auto;
-      margin-right: auto;
-      width: 40em
-  }
-  * {
-  font-family: sans-serif;
-  font-weight: 300
-  }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-  }
-  .center2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
+    body {
+      font-family: sans-serif;
+      font-weight: 300;
+    }
+    .container {
+      width: 800px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .content {
+      width: 70%;
+      float: left;
+    }
+    .photo {
+      width: 28%;
+      float: right;
+      text-align: center;
+    }
+    .photo img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-top: 1.5em;
+    }
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
   </style>
 </head>
 
 <body>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <div style="width:600px" class="center">
-    <p>Welcome! My name is Ying Wang (王滢).
-      As of Fall 2024 I am a fourth year math PhD stduent at the University of Michigan. I like non-archimedean geometry, algebraic geometry and complex geometry. My advisor is <a href="https://dept.math.lsa.umich.edu/~mattiasj/index.html">Mattias Jonsson</a>.</p>
-    <p>You can reach me at ywangx [at] umich [dot] edu. </p>
-    <p></p>
-    <p style = "font-weight:bold">Teaching</p>
-    <p>Data, Functions and Graphs (Math 105): Fall 2022</p>
-    <p>Self-Study Precalc (Math 110): Fall 2024</p>
-    <p>Calculus I (Math 115): Fall 2021, Winter 2023</p>
-    <p>Calculus II (Math 116): Winter 2022</p>
-    <p>Calculus III (Math 215): Fall 2023</p>
-    <p>I have also taught at <a href="https://www.veritaschina.org/">Veritas China</a> in Summer 2021. In Summer 2022 and 2023, I work as a math instructor at <a href="https://wolverinepathways.umich.edu/">Wolverine Pathways</a>.  </p>
-    <p></p>
-    <p style = "font-weight:bold">Research</p>
-    <p>"Variants of normality and steadfastness deform," with A. Bauman, <a href="https://haviellers.netlify.app/">H. Ellers</a>, G. Hu, <a href="https://web.math.princeton.edu/~takumim/">T. Murayama</a>, and S. Nair. <a href="https://arxiv.org/abs/2202.00163">arXiv:2202.00163</a>. Accepted. </p> 
+  <div class="container clearfix">
+    <div class="photo">
+      <img src="Oberwolfach.jpeg" alt="Oberwolfach Photo">
     </div>
-    </div>
-    <div style="width:500px" class="center">
-      <p></p>
-  </div>
 
-  <div style="clear: both;"></div>
-  <!--<p class="blocktext">I have been and am involved in social enterprises and NGOs promoting educational equity in China. If you think I can be of help to your organization, feel free to contact me.</p>--> 
+    <div class="content">
+      <p>Welcome! My name is Ying Wang (王滢).
+      As of Fall 2024 I am a fourth-year math PhD student at the University of Michigan. I like non-archimedean geometry, algebraic geometry, and complex geometry. My advisor is <a href="https://dept.math.lsa.umich.edu/~mattiasj/index.html">Mattias Jonsson</a>.</p>
+
+      <p>You can reach me at ywangx [at] umich [dot] edu.</p>
+
+      <p class="section-title">Teaching</p>
+      <p>Data, Functions and Graphs (Math 105): Fall 2022</p>
+      <p>Self-Study Precalc (Math 110): Fall 2024</p>
+      <p>Calculus I (Math 115): Fall 2021, Winter 2023</p>
+      <p>Calculus II (Math 116): Winter 2022</p>
+      <p>Calculus III (Math 215): Fall 2023</p>
+      <p>I have also taught at <a href="https://www.veritaschina.org/">Veritas China</a> in Summer 2021. In Summer 2022 and 2023, I worked as a math instructor at <a href="https://wolverinepathways.umich.edu/">Wolverine Pathways</a>.</p>
+
+      <p class="section-title">Research</p>
+      <p>"Variants of normality and steadfastness deform," with A. Bauman, <a href="https://haviellers.netlify.app/">H. Ellers</a>, G. Hu, <a href="https://web.math.princeton.edu/~takumim/">T. Murayama</a>, and S. Nair. <a href="https://arxiv.org/abs/2202.00163">arXiv:2202.00163</a>. Accepted.</p>
+    </div>
+  </div>
 </body>
+</html>
